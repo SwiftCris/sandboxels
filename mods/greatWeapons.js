@@ -1,6 +1,6 @@
 elements.nuke = {
-  color: "#yellow",
-  behaviour: behaviours.SOLID,
+  color: "#FFFF00",
+  behavior: behavior.WALL,
   reactions: {
     "heat": { "elem2": null }
   },
