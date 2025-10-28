@@ -28,7 +28,7 @@ elements.bullet_left = {
   color: "#FFFFFF",
   behavior: [
     "XX|XX|XX",
-    "M1 AND EX:10>fire,ash|XX|XX",
+    "M1 AND EX:10>gunpowder|XX|XX",
     "XX|XX|Xx"
   ]
 }
