@@ -13,7 +13,7 @@ elements.nuke = {
   state: "solid",
   tick: function(pixel) {
     if (pixel.temp >= 50) {
-      explodeAt(pixel.x, pixel.y, 10, "fire");
+      explodeAt(pixel.x, pixel.y, 50, "pasma");
 
       console.log("test");
 
