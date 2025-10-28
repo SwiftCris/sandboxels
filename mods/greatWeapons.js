@@ -28,9 +28,22 @@ elements.bullet_left = {
   color: "#FFFFFF",
   behavior: [
     "XX|XX|XX",
-    "M1 AND EX:10>gunpowder|XX|XX",
+    "M1 AND EX:10>gunpowder,heat|XX|XX",
     "XX|XX|Xx"
   ],
   category: "pistol",
+  state: "solid"
+}
+elements.pistol = {
+  color: "#FFFFFF",
+  behavior: [
+    "XX|XX|XX",
+    "XX|XX|XX",
+    "XX|M1 AND EX:10>ash|XX",
+  ],
+  category: "pistol",
   state: "solid",
+  tick: function(pixel) {
+    releaseElement(pixel, "bullet_left");
+  }
 }
