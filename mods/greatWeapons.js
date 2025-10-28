@@ -3,7 +3,7 @@ elements.nuke = {
   behavior: [
     "XX|EX:10>ash|XX",
     "XX|XX|XX",
-    "M2|M1|M2",
+    "M2|M1 AND EX:10>ASH|M2",
   ],
   reactions: {
     "heat": { "elem2": null },
