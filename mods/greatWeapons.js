@@ -38,12 +38,14 @@ elements.pistol = {
   color: "#FFFFFF",
   behavior: [
     "XX|XX|XX",
-    "XX|XX|XX",
-    "XX|M1|XX",
+    "XX|CR:>bullet_left|XX",
+    "XX|M1 AND CH:1>ash|XX",
   ],
   category: "pistol",
   state: "solid",
   tick: function(pixel) {
+
     releaseElement(pixel, "bullet_left");
   }
 }
+
