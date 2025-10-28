@@ -13,7 +13,7 @@ elements.nuke = {
   state: "solid",
   tick: function(pixel) {
     if (pixel.temp >= 50) {
-      explodeAt(pixel.x, pixel.y, 50, "pasma");
+      explodeAt(pixel.x, pixel.y, 5, "pasma");
 
       console.log("test");
 
@@ -23,3 +23,12 @@ elements.nuke = {
 
 
 };
+
+elements.bullet_left = {
+  color: "#FFFFFF",
+  behavior: [
+    "XX|XX|XX",
+    "M1 AND EX:10>fire,ash|XX|XX",
+    "XX|XX|Xx"
+  ]
+}
