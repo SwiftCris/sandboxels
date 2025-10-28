@@ -39,7 +39,7 @@ elements.pistol = {
   behavior: [
     "XX|XX|XX",
     "XX|XX|XX",
-    "XX|M1 AND EX:10>ash|XX",
+    "XX|M1|XX",
   ],
   category: "pistol",
   state: "solid",
