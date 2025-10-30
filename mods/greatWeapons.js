@@ -29,7 +29,7 @@ elements.bullet_left = {
   behavior: [
     "XX|XX|XX",
     "M1 AND EX:10>gunpowder,heat|XX|XX",
-    "XX|Xxx"
+    "XX|XX|XX"
   ],
   category: "pistol",
   state: "solid"
