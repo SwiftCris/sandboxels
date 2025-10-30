@@ -49,3 +49,18 @@ elements.pistol = {
   }
 }
 
+elememts.test = {
+ color = "#FFFFFF",
+ behavior: [
+ "XX|XX|XX",
+ "XX|XX|Xx"
+ "XX|m1|XX"
+
+ ],
+ category: "goodWeapons",
+ state: "solid",
+ tick: function(pixel) {
+  pixel.y += 1;
+ }
+
+}
