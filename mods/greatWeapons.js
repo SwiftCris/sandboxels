@@ -14,7 +14,7 @@ elements.nuke = {
   tick: function(pixel) {
     if (pixel.temp >= 50) {
       explodeAt(pixel.x, pixel.y, 5, "pasma");
-
+       
       console.log("test");
 
     }
@@ -29,7 +29,7 @@ elements.bullet_left = {
   behavior: [
     "XX|XX|XX",
     "M1 AND EX:10>gunpowder,heat|XX|XX",
-    "XX|XX|Xx"
+    "XX|Xxx"
   ],
   category: "pistol",
   state: "solid"
@@ -38,7 +38,7 @@ elements.pistol = {
   color: "#FFFFFF",
   behavior: [
     "XX|XX|XX",
-    "XX|CR:>bullet_left|XX",
+    "XX|LB:>bullet_left|XX",
     "XX|M1 AND CH:1>ash|XX",
   ],
   category: "pistol",
